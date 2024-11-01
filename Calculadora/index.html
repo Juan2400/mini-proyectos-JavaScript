@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <div>
+        <label type="text">Operacion: <span id="operacion"></label>
+      </div>
+      <label type="text" id="temporal"></label>
+      <input type="text" id="pantalla"/>
+
+      <div id="fila1">
+        <button type="button" id="limpiar">AC</button>
+        <button type="button" id="modulo">mod</button>
+        <button type="button" id="division">/</button>
+        <button type="button" id="eliminar">#=</button>
+      </div>
+
+      <div id="fila2">
+        <button type="button" id="numero7">7</button>
+        <button type="button" id="numero8">8</button>
+        <button type="button" id="numero9">9</button>
+        <button type="button" id="multiplicacion">*</button>
+      </div>
+
+      <div id="fila3">
+        <button type="button" id="numero4">4</button>
+        <button type="button" id="numero5">5</button>
+        <button type="button" id="numero6">6</button>
+        <button type="button" id="suma">+</button>
+      </div>
+
+      <div id="fila4">
+        <button type="button" id="numero1">1</button>
+        <button type="button" id="numero2">2</button>
+        <button type="button" id="numero3">3</button>
+        <button type="button" id="resta">-</button>
+      </div>
+
+      <div id="fila5">
+        <button type="button" id="numero0">0</button>
+        <button type="button" id="igual">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

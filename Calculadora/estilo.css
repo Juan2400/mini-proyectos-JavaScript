@@ -1,0 +1,87 @@
+/* estilo.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  #contenedor {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #contenedor label[type="text"],
+  #pantalla {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: right;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+  }
+  
+  #pantalla {
+    font-size: 1.5em;
+    height: 50px;
+  }
+  
+  #fila1, #fila2, #fila3, #fila4, #fila5 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d1d1d1;
+  }
+  
+  #limpiar {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  #modulo, #division, #multiplicacion, #suma, #resta {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  #igual {
+    background-color: #008CBA;
+    color: #fff;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  button#numero0 {
+    flex: 2;
+  }
+  
